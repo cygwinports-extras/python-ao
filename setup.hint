@@ -1,0 +1,4 @@
+category: Python Audio
+requires: cygwin libao2 python
+sdesc: "Python bindings for libao"
+ldesc: "Python bindings for libao"
