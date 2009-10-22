@@ -3,20 +3,19 @@ python-ao
 Python bindings for libao.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libao2-0.8.6-1
-  python-2.5.1-1
+  cygwin-1.7.0-62
+  libao2-0.8.8-1
+  libgcc1-4.3.4-1
+  python-2.5.4-10
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
-  binutils-20060817-1
-  gcc-core-3.4.4-3
-  python-2.5.1-1
+  binutils-2.19.51-1
+  gcc4-core-4.3.4-1
+  python-2.5.4-10
 
 Canonical homepage:
-  http://www.vorbis.com/
-  http://www.andrewchatham.com/pyogg/
+  http://ekyo.nerim.net/software/pyogg/
 
 -------------------------------------------
 
@@ -33,19 +32,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/python2.5/site-packages/aomodule.dll
-  /usr/lib/python2.5/site-packages/pyao-0.82-py2.5.egg-info
-  /usr/share/doc/Cygwin/python-ao-0.82.README
-  /usr/share/doc/python-ao-0.82/AUTHORS
-  /usr/share/doc/python-ao-0.82/COPYING
-  /usr/share/doc/python-ao-0.82/ChangeLog
-  /usr/share/doc/python-ao-0.82/README
-
-------------------
-
 Port Notes:
+
+----- version 0.82-4 -----
+Rebuilt for Cygwin 1.7.
 
 ----- version 0.82-3 -----
 Rebuilt for python-2.5.
