@@ -2,15 +2,12 @@ http://www.python.org/doc/FAQ.html#3.24
 
 --- origsrc/pyao-0.82/src/aomodule.h	2003-07-24 01:58:07.000000000 -0500
 +++ src/pyao-0.82/src/aomodule.h	2007-05-17 14:06:38.018515500 -0500
-@@ -58,7 +58,11 @@
+@@ -58,7 +58,7 @@
  existing file\n";
  
  static PyTypeObject ao_Type = {
-+#if defined(WIN32) || defined(__CYGWIN__)
+-  PyObject_HEAD_INIT(&PyType_Type)
 +  PyObject_HEAD_INIT(NULL)
-+#else
-   PyObject_HEAD_INIT(&PyType_Type)
-+#endif
    0,
    "AudioDevice",
    sizeof(ao_Object),
