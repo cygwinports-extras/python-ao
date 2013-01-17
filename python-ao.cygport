@@ -1,7 +1,12 @@
 ORIG_PN="pyao"
 inherit distutils
 
-DESCRIPTION="Python libao bindings"
+NAME="python-ao"
+VERSION=0.82
+RELEASE=7
+CATEGORY="Python"
+SUMMARY="Python bindings for libao"
+DESCRIPTION="Python bindings for libao"
 HOMEPAGE="http://ekyo.nerim.net/software/pyogg/index.html"
 SRC_URI="http://ekyo.nerim.net/software/pyogg/${ORIG_PN}-${PV}.tar.gz"
 
